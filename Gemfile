@@ -14,6 +14,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
+gem 'devise', '~> 4.2'
+gem 'simple_form'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
@@ -35,3 +37,8 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :production do
+	gem 'rails_12factor', '~> 0.0.3'
+	gem 'pg', '~> 1.1'
+end
