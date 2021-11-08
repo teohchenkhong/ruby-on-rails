@@ -10,7 +10,10 @@ gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
+
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
+gem 'bootstrap-sass-extras', '~> 0.0.2'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
