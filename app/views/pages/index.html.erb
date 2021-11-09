@@ -24,6 +24,7 @@
 			<h4>Recent Posts</h4>
 			<% @articles.each do |a|%>
 				<strong><%= link_to a.title,  a%></strong>
+				Created by: <%= a.user.username %>
 				<p><%= truncate(a.body) %></p>
 			<% end %>
 
